@@ -1,0 +1,3 @@
+- insert:
+    - id: job-search-automation-skill
+      name: '@local/dsh-skill-job-search-automation'

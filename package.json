@@ -1,0 +1,18 @@
+{
+  "name": "dsh-skill-job-search-automation",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "DeepSeek Harness bundle that ships the job-search-automation agent skill (intake, resume rewriting, sourcing, screening, due diligence, outreach, chat progression to interview, human-like anti-ban pacing).",
+  "keywords": ["dsh","deepseek-harness","agent-skill","job-search","recruiting","automation","resume","boss-zhipin","liepin"],
+  "license": "MIT",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "files": ["index.js","cordis.patch.yml","locale/*.json","skill","README.md"],
+  "engines": { "node": ">=18" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "repository": { "type": "git", "url": "git+https://github.com/<your-account>/dsh-skill-job-search-automation.git" },
+  "homepage": "https://github.com/<your-account>/dsh-skill-job-search-automation#readme"
+}
